@@ -1,0 +1,27 @@
+body{
+ background-color:#ECCCB2;
+ text-align:center;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size:5em;
+}
+#timer{
+     margin:100px 150px;
+     padding:20px;
+     font-size:5em;
+     color:#31087B;
+     font-family: 'Special Elite', cursive;
+     border:5px solid #D61C4E;
+     border-radius:55px;
+     border-width:thick;
+}
+@media all and (max-width:768px){
+  h1{
+    font-size:3rem;
+  }
+  #timer {
+     font-size:calc(3.5em *var(--small));
+  }
+
+}
